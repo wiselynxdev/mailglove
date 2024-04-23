@@ -8,3 +8,5 @@ services:
     environment:
       - DOMAIN=radarevents.wiselynx.com
       - URL=https://eofdjz65tg2v2vt.m.pipedream.net
+    ports:
+      - "25:25"
