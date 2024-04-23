@@ -1,5 +1,4 @@
-From ubuntu:jammy
-MAINTAINER Richard Klafter
+FROM debian:bookworm-slim
 
 # Set noninteractive mode for apt-get
 ENV DEBIAN_FRONTEND noninteractive

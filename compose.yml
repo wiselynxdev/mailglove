@@ -1,0 +1,10 @@
+services:
+  mailglove:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mailglove
+    container_name: mailglove
+    environment:
+      - DOMAIN=mail-events.wiselynx.com
+      - URL=https://eofdjz65tg2v2vt.m.pipedream.net
